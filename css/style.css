@@ -76,6 +76,10 @@ img,video, audio{
 }
 
 /*LAYOUT///*/
+
+*{
+  box-sizing: border-box;
+}
 .wrapper{
   width:960px;
   margin: 0 auto;
@@ -117,5 +121,5 @@ background-color:#ccc;
 section{
   margin-bottom: 20px;
   padding: 20px;
-  
+
 }
