@@ -75,4 +75,27 @@ figcaption {
   width:960px;
   margin: 0 auto;
   background-color:#eee;
+  background-color:#ccc;
+
+}
+.col-1{
+float:left;
+width: 32%;
+}
+.col-2{
+float:left;
+width:66%;
+background-color:#ccc;
+
+}
+.col-3{
+background-color:#ccc;
+}
+
+[class*="col-"]{
+  margin-left: 2%;
+}
+/* add 2 percent margin if class starts with column*/
+.first{
+  margin-left: 0%;
 }
